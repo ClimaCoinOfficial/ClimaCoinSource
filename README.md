@@ -1,33 +1,51 @@
+![ClimaCoin](./Logo.png)
 
-ClimaCoin development tree
+This is the working repository for ClimaCoin 1.2.2
 
-ClimaCoin is a PoS-based cryptocurrency.
+For more information please visit the website:
 
-Development process
-===========================
+https://ClimaCoin.de
 
-Developers work in their own trees, then submit pull requests when
-they think their feature or bug fix is ready.
 
-The patch will be accepted if there is broad consensus that it is a
-good thing.  Developers should expect to rework and resubmit patches
-if they don't match the project's coding conventions (see coding.txt)
-or are controversial.
+## Coin Specifications
 
-The master branch is regularly built and tested, but is not guaranteed
-to be completely stable. Tags are regularly created to indicate new
-stable release versions of climacoin.
+| Specification | Value |
+|:-----------|:-----------|
+| Block Spacing | `30 seconds` |
+| Stake Minimum Age | `2 hours` |
+| Stake Reward | `5% per annum` |
+| Port | `44660` |
+| RPC Port | `44661` |
 
-Feature branches are created when there are major new features being
-worked on by several people.
+<!--  What should be done with this? -->
+<!-- ## Navtech Settings
 
-From time to time a pull request will become outdated. If this occurs, and
-the pull is no longer automatically mergeable; a comment on the pull will
-be used to issue a warning of closure. The pull will be closed 15 days
-after the warning if action is not taken by the author. Pull requests closed
-in this manner will have their corresponding issue labeled 'stagnant'.
+| Specification | Value |
+|:-----------|:-----------|
+| addanonserver | `95.183.52.55:3000` |
+| addanonserver | `95.183.53.184:3000` |
+| addanonserver | `95.183.52.28:3000` |
+| addanonserver | `95.183.52.29:3000` |
 
-Issues with no commits will be given a similar warning, and closed after
-15 days from their last activity. Issues closed in this manner will be 
-labeled 'stale'.
-# ClimaCoinSource
+## Social Channels
+
+| Site | link |
+|:-----------|:-----------|
+| Twitter | https://twitter.com/ClimaCoin |
+| Telegram | https://t.me/ClimaCoin |
+| Reddit | http://www.reddit.com/r/climacoin |
+| Facebook | https://www.facebook.com/ClimaCoin |
+| Instagram | https://www.instagram.com/ClimaCoinOfficial/ |
+<!--
+## Community Resources
+
+| Site | link |
+|:-----------|:-----------|
+| Trello Board | [https://trello.com/nav-community](https://trello.com/invite/b/rPdvVVL4/ba5c40a885fd3c02cda2a8b406ff7124/nav-community) |
+| Nav Community | http://navcommunity.net |
+
+ -->
+
+License
+---------------------
+Distributed under the [MIT software license](http://www.opensource.org/licenses/mit-license.php).
